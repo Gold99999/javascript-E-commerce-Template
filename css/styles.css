@@ -1,0 +1,15 @@
+.product.col-md-3 img {
+    width: 100%;
+        padding: 2em;
+}
+
+.product.col-md-3 {
+    display: inline-block;
+    flex: 0 0 23%;
+    max-width: 23%;
+    text-align: center;
+}
+
+.hidden{
+	display: none !important;
+}

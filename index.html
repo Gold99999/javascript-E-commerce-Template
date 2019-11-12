@@ -1,0 +1,95 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+
+	<div class="container">
+		<br/>
+		<h1>LOGIN</h1>
+		<br/>
+		<div class="form-contaimer jumbotron">
+
+			<form action="products.html" method="post">
+			  <div class="row">
+			    <div class="col">
+			      <input type="text" name="username" required="" placeholder="Enter username" class="form-control">
+			    </div>
+			    <div class="col">
+			      <input type="password" name="userpass" required="" placeholder="password" class="form-control">
+			    </div>
+			    <div class="col">
+			      <input id="login" type="submit" name="login" value="LOGIN" class="form-control btn-danger">
+			    </div>
+			  </div>
+			</form>
+
+			<br/>
+			<br/>
+			<a href="" id="getlogin">Get login details</a>
+
+		</div>
+
+
+	<div class="row hidden" id="details-table">
+		<div class="col-md-4">
+			<p>Use these details to login to different profiles</p>
+			<table class="table" >
+				<tr>
+					<th>USERNAME</th>
+					<th>PASSWORD</th>
+					<th>ROLE</th>
+				</tr>
+				<tr>
+					<td>admin</td>
+					<td>@admin123</td>
+					<td>Admin</td>
+				</tr>
+				<tr>
+					<td>customer</td>
+					<td>@customer123</td>
+					<td>Customer</td>
+				</tr>
+				<tr>
+					<td>Moeta</td>
+					<td>@Moeta123</td>
+					<td>Casual</td>
+				</tr>
+				
+			</table>
+
+			<p><i>You can add more users by adding another array item to the users object in js/users.js</i></p>
+
+		</div>
+		</div>
+
+	</div> <!-- close container -->
+
+
+
+	<br/>
+	<br/>
+
+	<footer>
+
+		<center>
+			<p>&copy; Copyright | Abram Moeta | <a href="mailto:abrammoeta@gmail.com" target="_blank">abrammoeta@gmail.com</a></p>
+		</center>
+
+	</footer>
+
+</body>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/users.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>
